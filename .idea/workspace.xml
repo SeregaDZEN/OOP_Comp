@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e37e58a-fbf1-49de-a929-cb1ee3c53d08" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Attachment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yme)2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.ymlHome" beforeDir="false" />
+    <list default="true" id="6e37e58a-fbf1-49de-a929-cb1ee3c53d08" name="Changes" comment="two commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Comment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PostNotFoundException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ReportComment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Attachment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Attachment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/WallServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/WallServiceTest.kt" afterDir="false" />
     </list>
@@ -46,9 +47,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="JUnit4 Test Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Sealed Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -106,7 +108,29 @@
       <command value="gradle test jacocoTestReport" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Gradle.WallServiceTest.shouldThrowSecond">
+    <configuration name="OOP [test jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="WallServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,7 +154,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WallServiceTest.add" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WallServiceTest.shouldThrow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +167,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;WallServiceTest.add&quot;" />
+            <option value="&quot;WallServiceTest.shouldThrow&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +177,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WallServiceTest.upDateTwo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WallServiceTest.shouldThrowSecond" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,30 +190,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;WallServiceTest.upDateTwo&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="WallServiceTest.updateExisting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;WallServiceTest.updateExisting&quot;" />
+            <option value="&quot;WallServiceTest.shouldThrowSecond&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,10 +209,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WallServiceTest.shouldThrowSecond" />
+        <item itemvalue="Gradle.WallServiceTest.shouldThrow" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.WallServiceTest.updateExisting" />
-        <item itemvalue="Gradle.WallServiceTest.add" />
-        <item itemvalue="Gradle.WallServiceTest.upDateTwo" />
+        <item itemvalue="Gradle.OOP [test jacocoTestReport]" />
         <item itemvalue="Gradle.WallServiceTest" />
       </list>
     </recent_temporary>
@@ -232,12 +233,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682278239894</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="two commit">
+      <created>1683813884022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683813884022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="two commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="two commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
